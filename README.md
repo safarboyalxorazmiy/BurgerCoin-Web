@@ -1,2 +1,2 @@
 # BurgerCoin-Web
-BurgerCoin Website
+BurgerCoin.com Website

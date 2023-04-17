@@ -1,0 +1,178 @@
+.register-wrapper {
+  border-top: 40px solid #FBC241;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  .register {
+    display: flex;
+    // margin-left: 152px;
+    margin-top: 100px;
+    gap: 94px;
+  
+    .right {
+      margin-top: 62px;
+
+      span.title {
+        font-size: 16px;
+      }
+
+      h2 {
+        font-weight: 700;
+        font-style: 24px;
+        margin-bottom: 24px;
+      }
+
+      form {
+        label, label span.label-title {
+          display: block;
+          margin-bottom: 12px;
+        }
+        
+        label:not(:first-child) {
+          margin-top: 12px;
+        }
+
+        input {
+          padding: 17px 18px;
+          display: block;
+          border: 1px solid #E8E8E8;
+          border-radius: 5px;
+          width: 350px;
+        }
+
+        button[type=submit] {
+          width: 148px;
+          height: 39px;
+          margin-top: 8px;
+        }
+
+        p {
+          margin-top: 20px;
+          color: #CECDCD;
+
+          a {
+            color: #128EDE;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .register-wrapper {
+    .register {
+      margin-left: -200px;
+      gap: 40px;
+    }
+  } 
+}
+
+@media only screen and (max-width: 800px) {
+  .register-wrapper {
+    .register {
+      margin-left: -20%;
+
+      .left {
+        img {
+          width: 384px;
+          height: 477px;
+        }
+      }
+
+      .right {
+        margin-top: 0;
+      }
+      
+      gap: 40px;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .register-wrapper {
+    .register {
+      margin-left: -30%;
+      
+      gap: 30px;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .register-wrapper {
+    .register {
+      margin-left: -50%;
+      
+      gap: 10px;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .register-wrapper {
+    .register {
+      margin-left: 0%;
+      gap: 0px;
+      width: 90%;
+
+      .left {
+        display: none;
+      }
+
+      .right {
+        width: 100%;
+  
+        span.title {
+          font-size: 16px;
+        }
+  
+        h2 {
+          font-weight: 700;
+          font-style: 24px;
+          margin-bottom: 24px;
+        }
+  
+        form {
+          
+          label, label span.label-title {
+            display: block;
+            margin-bottom: 12px;
+          }
+          
+          label:not(:first-child) {
+            margin-top: 12px;
+          }
+  
+          input {
+            padding: 17px 18px;
+            display: block;
+            border: 1px solid #E8E8E8;
+            border-radius: 5px;
+            width: 100%;
+          }
+  
+          button[type=submit] {
+            width: 148px;
+            height: 39px;
+            margin-top: 8px;
+          }
+  
+          p {
+            margin-top: 20px;
+            color: #CECDCD;
+  
+            a {
+              color: #128EDE;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media only screen and (max-width: 390px) {
+}
